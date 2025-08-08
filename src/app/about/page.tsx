@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Dr. Laxman Trivedi - 30+ Years of Healing Excellence',
     description: 'Learn about Dr. Laxman Trivedi, a distinguished homeopathic physician with 30+ years of experience in natural healing and holistic medicine.',
-    url: 'https://drlaxmantrivedi.com/about',
+    url: 'https://dr-laxman-trivedi.vercel.app/about',
     images: [
       {
         url: '/about-og-image.jpg',

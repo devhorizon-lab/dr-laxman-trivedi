@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Dr. Laxman Trivedi - Book Your Appointment',
     description: 'Contact Dr. Laxman Trivedi for homeopathic consultation. Call +916386019546 or visit Shobha Complex Rauza Road, Sasaram, Bihar.',
-    url: 'https://drlaxmantrivedi.com/contact',
+    url: 'https://dr-laxman-trivedi.vercel.app/contact',
     images: [
       {
         url: '/contact-og-image.jpg',

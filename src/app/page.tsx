@@ -6,52 +6,52 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <article>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
-          <div className="absolute top-40 right-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
-          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+          <div className="absolute top-20 left-10 w-32 h-32 md:w-72 md:h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+          <div className="absolute top-40 right-10 w-32 h-32 md:w-72 md:h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-32 h-32 md:w-72 md:h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-20 items-center">
-            <div className="space-y-10">
-              <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm text-blue-800 rounded-full text-sm font-medium shadow-lg border border-blue-100">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 animate-pulse"></div>
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
+            <div className="space-y-6 md:space-y-10">
+              <div className="inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-white/80 backdrop-blur-sm text-blue-800 rounded-full text-xs md:text-sm font-medium shadow-lg border border-blue-100">
+                <div className="w-2 h-2 bg-blue-600 rounded-full mr-2 md:mr-3 animate-pulse"></div>
+                <svg className="w-3 h-3 md:w-4 md:h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 30+ Years of Healing Excellence
               </div>
               
-              <div className="space-y-6">
-                <h1 className="text-6xl lg:text-8xl font-bold text-gray-900 leading-tight">
+              <div className="space-y-4 md:space-y-6">
+                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-gray-900 leading-tight">
                   Dr. Laxman{" "}
                   <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent animate-gradient">
                     Trivedi
                   </span>
                 </h1>
-                <h2 className="text-3xl lg:text-4xl font-semibold text-blue-600 mb-8">
+                <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-blue-600 mb-4 md:mb-8">
                   Homeopathic Physician
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed max-w-2xl">
+                <p className="text-base md:text-xl text-gray-700 leading-relaxed max-w-2xl">
                   Transforming lives through natural healing with over three decades of expertise 
                   in homeopathic medicine. Experience personalized care that addresses the root 
                   cause of your health concerns.
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-6">
-                <a href="/contact" className="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white font-semibold rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+              <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                <a href="/contact" className="group relative inline-flex items-center justify-center px-6 md:px-10 py-4 md:py-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white font-semibold rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <svg className="w-6 h-6 mr-3 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 md:w-6 md:h-6 mr-2 md:mr-3 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                   <span className="relative z-10">Book Consultation</span>
                 </a>
-                <a href="/about" className="group inline-flex items-center justify-center px-10 py-5 border-2 border-blue-600 text-blue-600 font-semibold rounded-2xl hover:bg-blue-50 hover:border-blue-700 transition-all duration-300 backdrop-blur-sm">
-                  <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <a href="/about" className="group inline-flex items-center justify-center px-6 md:px-10 py-4 md:py-5 border-2 border-blue-600 text-blue-600 font-semibold rounded-2xl hover:bg-blue-50 hover:border-blue-700 transition-all duration-300 backdrop-blur-sm">
+                  <svg className="w-5 h-5 md:w-6 md:h-6 mr-2 md:mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   Learn More
@@ -59,13 +59,13 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="relative">
-              <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-10 transform rotate-3 hover:rotate-0 transition-all duration-700 hover:scale-105">
+            <div className="relative mt-8 lg:mt-0">
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 md:p-10 transform rotate-3 hover:rotate-0 transition-all duration-700 hover:scale-105">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 to-indigo-100/50 rounded-3xl"></div>
                 <div className="relative z-10">
-                  <div className="w-96 h-96 bg-gradient-to-br from-blue-200 via-indigo-300 to-purple-300 rounded-full flex items-center justify-center mx-auto shadow-2xl">
-                    <div className="w-48 h-48 bg-white/80 rounded-full flex items-center justify-center shadow-inner">
-                      <svg className="w-24 h-24 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <div className="w-64 h-64 md:w-96 md:h-96 bg-gradient-to-br from-blue-200 via-indigo-300 to-purple-300 rounded-full flex items-center justify-center mx-auto shadow-2xl">
+                    <div className="w-32 h-32 md:w-48 md:h-48 bg-white/80 rounded-full flex items-center justify-center shadow-inner">
+                      <svg className="w-16 h-16 md:w-24 md:h-24 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                       </svg>
                     </div>
@@ -104,7 +104,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="group bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 transition-all duration-500 border border-white/20">
               <div className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500 shadow-lg">

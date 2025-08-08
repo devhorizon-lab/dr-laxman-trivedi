@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Our Services - Comprehensive Homeopathic Treatment',
     description: 'Comprehensive homeopathic services including initial consultation (₹500), follow-up consultation (₹300), and emergency consultation (₹1000).',
-    url: 'https://drlaxmantrivedi.com/services',
+    url: 'https://dr-laxman-trivedi.vercel.app/services',
     images: [
       {
         url: '/services-og-image.jpg',

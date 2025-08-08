@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://drlaxmantrivedi.com/sitemap.xml',
+    sitemap: 'https://dr-laxman-trivedi.vercel.app/sitemap.xml',
   }
 }

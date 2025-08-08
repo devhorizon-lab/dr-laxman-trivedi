@@ -37,7 +37,19 @@ export const metadata: Metadata = {
     "natural treatment",
     "alternative medicine",
     "Sasaram",
-    "Bihar"
+    "Bihar",
+    "homeopathic doctor Sasaram",
+    "homeopathic physician Bihar",
+    "Dr. Laxman Trivedi Sasaram",
+    "homeopathic treatment Sasaram",
+    "natural medicine doctor Bihar",
+    "holistic healing Sasaram",
+    "homeopathic consultation Bihar",
+    "alternative medicine Sasaram",
+    "chronic disease treatment Sasaram",
+    "pediatric homeopathy Bihar",
+    "women's health homeopathy Sasaram",
+    "mental health treatment Bihar"
   ].join(", "),
   authors: [{ name: "Dr. Laxman Trivedi" }],
   creator: "Dr. Laxman Trivedi",
@@ -47,7 +59,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://drlaxmantrivedi.com'),
+  metadataBase: new URL('https://dr-laxman-trivedi.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -107,7 +119,7 @@ export default function RootLayout({
               "@type": "MedicalBusiness",
               "name": "Dr. Laxman Trivedi Homeopathic Clinic",
               "description": "Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience in natural healing and holistic medicine.",
-              "url": "https://drlaxmantrivedi.com",
+              "url": "https://dr-laxman-trivedi.vercel.app",
               "telephone": "+916386019546",
               "email": "dr.trivedi@example.com",
               "address": {
@@ -127,6 +139,29 @@ export default function RootLayout({
                 "Mo-Fr 09:00-18:00",
                 "Sa 09:00-14:00"
               ],
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Sasaram"
+                },
+                {
+                  "@type": "State", 
+                  "name": "Bihar"
+                },
+                {
+                  "@type": "Country",
+                  "name": "India"
+                }
+              ],
+              "serviceArea": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "24.9485",
+                  "longitude": "84.0183"
+                },
+                "geoRadius": "50000"
+              },
               "priceRange": "₹₹",
               "paymentAccepted": ["Cash", "UPI", "Bank Transfer"],
               "currenciesAccepted": "INR",
@@ -231,10 +266,11 @@ export default function RootLayout({
                   "reviewBody": "Excellent doctor with 30+ years of experience. My child's asthma improved significantly with his treatment."
                 }
               ],
-              "sameAs": [
-                "https://www.facebook.com/drlaxmantrivedi",
-                "https://www.instagram.com/drlaxmantrivedi"
-              ]
+                  "sameAs": [
+      "https://www.facebook.com/drlaxmantrivedi",
+      "https://www.instagram.com/drlaxmantrivedi",
+      "https://dr-laxman-trivedi.vercel.app"
+    ]
             })
           }}
         />
