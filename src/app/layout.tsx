@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dr. Laxman Trivedi - Homeopathic Physician | 30+ Years Experience",
-    template: "%s | Dr. Laxman Trivedi"
+    default: "Dr. Laxaman Trivedi - Homeopathic Physician | 30+ Years Experience",
+    template: "%s | Dr. Laxaman Trivedi"
   },
-  description: "Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience. Specializing in natural healing, chronic diseases, pediatric care, and women's health. Book consultation at ₹500.",
+      description: "Dr. Laxaman Trivedi is a distinguished homeopathic physician with over 30 years of experience, having treated over 1 lakh+ patients. Specializing in natural healing, chronic diseases, pediatric care, and women's health. Book consultation at ₹300. Call +916386019546.",
   keywords: [
     "homeopathic doctor",
-    "Dr. Laxman Trivedi", 
+    "Dr. Laxaman Trivedi", 
     "homeopathic physician",
     "natural medicine",
     "holistic healing",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     "Bihar",
     "homeopathic doctor Sasaram",
     "homeopathic physician Bihar",
-    "Dr. Laxman Trivedi Sasaram",
+    "Dr. Laxaman Trivedi Sasaram",
     "homeopathic treatment Sasaram",
     "natural medicine doctor Bihar",
     "holistic healing Sasaram",
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     "women's health homeopathy Sasaram",
     "mental health treatment Bihar"
   ].join(", "),
-  authors: [{ name: "Dr. Laxman Trivedi" }],
-  creator: "Dr. Laxman Trivedi",
-  publisher: "Dr. Laxman Trivedi Homeopathic Clinic",
+      authors: [{ name: "Dr. Laxaman Trivedi" }],
+    creator: "Dr. Laxaman Trivedi",
+    publisher: "Dr. Laxaman Trivedi Homeopathic Clinic",
   formatDetection: {
     email: false,
     address: false,
@@ -64,16 +64,16 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Dr. Laxman Trivedi - Homeopathic Physician | 30+ Years Experience",
-    description: "Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience. Specializing in natural healing, chronic diseases, pediatric care, and women's health.",
+    title: "Dr. Laxaman Trivedi - Homeopathic Physician | 30+ Years Experience",
+    description: "Dr. Laxaman Trivedi is a distinguished homeopathic physician with over 30 years of experience. Specializing in natural healing, chronic diseases, pediatric care, and women's health.",
     url: 'https://drlaxmantrivedi.com',
-    siteName: 'Dr. Laxman Trivedi Homeopathic Clinic',
+          siteName: 'Dr. Laxaman Trivedi Homeopathic Clinic',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dr. Laxman Trivedi - Homeopathic Physician',
+        alt: 'Dr. Laxaman Trivedi - Homeopathic Physician',
       },
     ],
     locale: 'en_US',
@@ -81,8 +81,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Laxman Trivedi - Homeopathic Physician',
-    description: 'Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience in natural healing.',
+    title: 'Dr. Laxaman Trivedi - Homeopathic Physician',
+    description: 'Dr. Laxaman Trivedi is a distinguished homeopathic physician with over 30 years of experience in natural healing.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -117,11 +117,23 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
-              "name": "Dr. Laxman Trivedi Homeopathic Clinic",
-              "description": "Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience in natural healing and holistic medicine.",
+                            "name": "Dr. Laxaman Trivedi Homeopathic Clinic",
+              "description": "Dr. Laxaman Trivedi is a distinguished homeopathic physician with over 30 years of experience, having treated over 1 lakh+ patients through natural healing and holistic medicine. Located at Shobha Complex Rauza Road, Sasaram, Bihar.",
               "url": "https://dr-laxman-trivedi.vercel.app",
               "telephone": "+916386019546",
-              "email": "dr.trivedi@example.com",
+                              "additionalProperty": [
+                  {
+                    "@type": "PropertyValue",
+                    "name": "Emergency Phone",
+                    "value": "+918877712278"
+                  },
+                  {
+                    "@type": "PropertyValue",
+                    "name": "Registration Number",
+                    "value": "25828"
+                  }
+                ],
+                              "email": "narayanjeetrivedi@gmail.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Shobha Complex Rauza Road",
@@ -167,9 +179,9 @@ export default function RootLayout({
               "currenciesAccepted": "INR",
               "founder": {
                 "@type": "Person",
-                "name": "Dr. Laxman Trivedi",
-                "jobTitle": "Homeopathic Physician",
-                "description": "Dr. Laxman Trivedi is a distinguished homeopathic physician with over 30 years of experience in treating patients with natural and holistic approaches.",
+                "name": "Dr. Laxaman Trivedi",
+                "jobTitle": "Homeopathic Physician, D.H.M.S (B.U), Former Lecturer D.M.H.M.C.H Garhwa",
+                "description": "Dr. Laxaman Trivedi is a distinguished homeopathic physician with over 30 years of experience, having treated over 1 lakh+ patients with natural and holistic approaches.",
                 "knowsAbout": [
                   "Homeopathic Medicine",
                   "Natural Healing",
@@ -231,13 +243,13 @@ export default function RootLayout({
                   }
                 ]
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "150",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
+                              "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.8",
+                  "reviewCount": "100000",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                },
               "review": [
                 {
                   "@type": "Review",

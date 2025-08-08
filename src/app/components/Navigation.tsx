@@ -12,14 +12,16 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-6">
           {/* Logo Section */}
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-              <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg overflow-hidden">
+              <img 
+                src="/sriramhomeologo.png" 
+                alt="Sriram Homeo Logo" 
+                className="w-full h-full object-contain p-1"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Dr. Laxman Trivedi
+                Dr. Laxaman Trivedi
               </h1>
               <p className="text-xs text-gray-500 font-medium">Homeopathic Physician</p>
             </div>

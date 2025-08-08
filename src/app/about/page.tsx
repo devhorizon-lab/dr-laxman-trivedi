@@ -1,26 +1,26 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Dr. Laxman Trivedi',
-  description: 'Learn about Dr. Laxman Trivedi, a distinguished homeopathic physician with 30+ years of experience. Discover his journey, philosophy, and expertise in natural healing.',
-  keywords: 'Dr. Laxman Trivedi, homeopathic physician, 30 years experience, natural healing, holistic medicine, Sasaram, Bihar',
+  title: 'About Dr. Laxaman Trivedi',
+  description: 'Learn about Dr. Laxaman Trivedi, a distinguished homeopathic physician with 30+ years of experience. Discover his journey, philosophy, and expertise in natural healing.',
+  keywords: 'Dr. Laxaman Trivedi, homeopathic physician, 30 years experience, natural healing, holistic medicine, Sasaram, Bihar',
   openGraph: {
-    title: 'About Dr. Laxman Trivedi - 30+ Years of Healing Excellence',
-    description: 'Learn about Dr. Laxman Trivedi, a distinguished homeopathic physician with 30+ years of experience in natural healing and holistic medicine.',
+    title: 'About Dr. Laxaman Trivedi - 30+ Years of Healing Excellence',
+    description: 'Learn about Dr. Laxaman Trivedi, a distinguished homeopathic physician with 30+ years of experience in natural healing and holistic medicine.',
     url: 'https://dr-laxman-trivedi.vercel.app/about',
     images: [
       {
         url: '/about-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dr. Laxman Trivedi - Homeopathic Physician',
+        alt: 'Dr. Laxaman Trivedi - Homeopathic Physician',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Dr. Laxman Trivedi - 30+ Years of Healing Excellence',
-    description: 'Learn about Dr. Laxman Trivedi, a distinguished homeopathic physician with 30+ years of experience in natural healing.',
+    title: 'About Dr. Laxaman Trivedi - 30+ Years of Healing Excellence',
+    description: 'Learn about Dr. Laxaman Trivedi, a distinguished homeopathic physician with 30+ years of experience in natural healing.',
     images: ['/about-og-image.jpg'],
   },
 }
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clipRule="evenodd" />
             </svg>
-            Meet Dr. Laxman Trivedi
+                          Meet Dr. Laxaman Trivedi
           </div>
           <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             A Legacy of{" "}
@@ -45,7 +45,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            With over three decades of dedicated practice in homeopathic medicine, Dr. Laxman Trivedi 
+                          With over three decades of dedicated practice in homeopathic medicine, Dr. Laxaman Trivedi 
             has transformed thousands of lives through his unique blend of traditional wisdom and 
             modern medical understanding. His commitment to treating the whole person, not just symptoms, 
             has earned him recognition as one of the region&apos;s most trusted homeopathic physicians.
@@ -81,16 +81,55 @@ export default function AboutPage() {
                   me to provide comprehensive care that bridges traditional and modern approaches.
                 </p>
                 <p>
-                  Over three decades, I&apos;ve treated over 10,000 patients with conditions ranging from 
+                  Over three decades, I&apos;ve treated over 1 lakh+ patients with conditions ranging from 
                   chronic diseases to acute ailments. Each patient has taught me something new, 
                   reinforcing my belief that every individual is unique and deserves personalized care.
                 </p>
               </div>
               
+              {/* Qualifications */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+                <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <h4 className="font-semibold text-gray-900">D.H.M.S (B.U)</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">Diploma in Homeopathic Medicine and Surgery from Bihar University</p>
+                </div>
+                
+                <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-500">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <h4 className="font-semibold text-gray-900">Lecturer D.M.H.M.C.H Garhwa</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">Former Lecturer at District Medical Homeopathic Medical College and Hospital, Garhwa</p>
+                </div>
+                
+                <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                      <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <h4 className="font-semibold text-gray-900">Reg. No. 25828</h4>
+                  </div>
+                  <p className="text-gray-600 text-sm">Registered Homeopathic Physician with Government of Bihar</p>
+                </div>
+              </div>
+              
               {/* Key Achievements */}
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="text-center p-4 bg-blue-50 rounded-xl">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">10,000+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">1 Lakh+</div>
                   <div className="text-gray-600 text-sm">Patients Treated</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-xl">
@@ -333,42 +372,42 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah M.",
+                name: "Priya Sharma",
                 age: "42",
                 condition: "Chronic Migraines",
                                   testimonial: "After suffering from debilitating migraines for 15 years, Dr. Trivedi&apos;s treatment completely transformed my life. I&apos;m now migraine-free for over 2 years.",
                 duration: "3 months treatment"
               },
               {
-                name: "Rajesh K.",
+                name: "Rajesh Kumar",
                 age: "38",
                 condition: "Diabetes Management",
                 testimonial: "Dr. Trivedi helped me manage my diabetes naturally. My blood sugar levels are now stable and I feel more energetic than ever.",
                 duration: "6 months treatment"
               },
               {
-                name: "Priya S.",
+                name: "Anjali Patel",
                 age: "29",
                 condition: "Anxiety & Depression",
                 testimonial: "His holistic approach to mental health helped me overcome anxiety and depression. I feel like myself again after years of struggle.",
                 duration: "4 months treatment"
               },
               {
-                name: "Michael T.",
+                name: "Mohan Singh",
                 age: "55",
                 condition: "Arthritis",
                                   testimonial: "The pain and stiffness in my joints have significantly reduced. Dr. Trivedi&apos;s treatment gave me back my mobility and quality of life.",
                 duration: "8 months treatment"
               },
               {
-                name: "Aisha R.",
+                name: "Aisha Rahman",
                 age: "31",
                 condition: "Fertility Issues",
                                   testimonial: "After trying for 3 years, Dr. Trivedi&apos;s treatment helped us conceive naturally. We&apos;re now proud parents of a healthy baby girl.",
                 duration: "9 months treatment"
               },
               {
-                name: "David L.",
+                name: "Deepak Verma",
                 age: "47",
                 condition: "Digestive Disorders",
                 testimonial: "My IBS symptoms have completely resolved. Dr. Trivedi&apos;s approach addressed the root cause, not just the symptoms.",
@@ -394,29 +433,82 @@ export default function AboutPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Experience the Trivedi Difference
-          </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of patients who have experienced the transformative power of 
-            Dr. Laxman Trivedi&apos;s personalized homeopathic treatment. Begin your journey 
-            to lasting health and wellness today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="group inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      <section className="relative py-24 bg-gradient-to-br from-blue-600 via-indigo-700 to-purple-800 text-white overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+          <div className="absolute top-40 right-10 w-72 h-72 bg-blue-300/20 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-indigo-300/20 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center">
+            <div className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium shadow-lg border border-white/30 mb-8">
+              <div className="w-2 h-2 bg-white rounded-full mr-3 animate-pulse"></div>
+              <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              Book Your Consultation
-            </a>
-            <a href="/services" className="group inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              View Our Services
-            </a>
+              Start Your Healing Journey
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">
+              Experience the{" "}
+              <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
+                Trivedi Difference
+              </span>
+            </h2>
+            <p className="text-xl mb-12 max-w-3xl mx-auto leading-relaxed text-white/90">
+              Join thousands of patients who have experienced the transformative power of 
+              Dr. Laxaman Trivedi&apos;s personalized homeopathic treatment. Begin your journey 
+              to lasting health and wellness today.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <a href="/contact" className="group relative inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-white to-gray-100 text-blue-600 font-semibold rounded-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <svg className="w-6 h-6 mr-3 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span className="relative z-10">Book Your Consultation</span>
+              </a>
+              <a href="/services" className="group inline-flex items-center justify-center px-10 py-5 border-2 border-white/80 text-white font-semibold rounded-2xl hover:bg-white/10 hover:border-white transition-all duration-300 backdrop-blur-sm">
+                <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                View Our Services
+              </a>
+            </div>
+            
+            {/* Additional Info Cards */}
+            <div className="grid md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Personalized Care</h3>
+                <p className="text-white/80 text-sm">Every treatment plan is uniquely tailored to your specific health needs</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Natural Healing</h3>
+                <p className="text-white/80 text-sm">Experience the power of natural remedies without side effects</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Proven Results</h3>
+                <p className="text-white/80 text-sm">Join thousands of satisfied patients who have found lasting relief</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
