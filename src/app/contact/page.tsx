@@ -1,3 +1,30 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us - Book Appointment',
+  description: 'Contact Dr. Laxman Trivedi for homeopathic consultation. Call +916386019546 or visit Shobha Complex Rauza Road, Sasaram, Bihar. Book your appointment today.',
+  keywords: 'contact Dr. Laxman Trivedi, book appointment, homeopathic consultation, Sasaram, Bihar, phone number, address, Dr. Laxman Trivedi contact',
+  openGraph: {
+    title: 'Contact Dr. Laxman Trivedi - Book Your Appointment',
+    description: 'Contact Dr. Laxman Trivedi for homeopathic consultation. Call +916386019546 or visit Shobha Complex Rauza Road, Sasaram, Bihar.',
+    url: 'https://drlaxmantrivedi.com/contact',
+    images: [
+      {
+        url: '/contact-og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Dr. Laxman Trivedi',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Dr. Laxman Trivedi - Book Your Appointment',
+    description: 'Contact Dr. Laxman Trivedi for homeopathic consultation. Call +916386019546 or visit Shobha Complex Rauza Road, Sasaram, Bihar.',
+    images: ['/contact-og-image.jpg'],
+  },
+}
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -309,7 +336,7 @@ export default function ContactPage() {
               </h3>
               <p className="text-gray-700">
                 Please bring a list of current medications, recent medical reports, and any 
-                relevant health history. We'll provide a detailed questionnaire before your visit.
+                relevant health history. We&apos;ll provide a detailed questionnaire before your visit.
               </p>
             </div>
           </div>

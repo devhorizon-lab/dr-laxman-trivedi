@@ -1,3 +1,30 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Our Services - Homeopathic Treatment',
+                  description: 'Comprehensive homeopathic services including initial consultation (₹500), follow-up consultation (₹300), and emergency consultation (₹1000). Specializing in chronic diseases, pediatric care, and women&apos;s health.',
+  keywords: 'homeopathic services, consultation fees, initial consultation, follow-up consultation, emergency consultation, chronic diseases, pediatric homeopathy, women\'s health, Dr. Laxman Trivedi',
+  openGraph: {
+    title: 'Our Services - Comprehensive Homeopathic Treatment',
+    description: 'Comprehensive homeopathic services including initial consultation (₹500), follow-up consultation (₹300), and emergency consultation (₹1000).',
+    url: 'https://drlaxmantrivedi.com/services',
+    images: [
+      {
+        url: '/services-og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Homeopathic Services - Dr. Laxman Trivedi',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Our Services - Comprehensive Homeopathic Treatment',
+    description: 'Comprehensive homeopathic services including initial consultation (₹500), follow-up consultation (₹300), and emergency consultation (₹1000).',
+    images: ['/services-og-image.jpg'],
+  },
+}
+
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -88,10 +115,10 @@ export default function ServicesPage() {
             
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">👩</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Women's Health</h3>
-              <p className="text-gray-700 mb-4">
-                Specialized care for women's unique health needs and concerns.
-              </p>
+                              <h3 className="text-xl font-semibold text-gray-900 mb-4">Women&apos;s Health</h3>
+                              <p className="text-gray-700 mb-4">
+                  Specialized care for women&apos;s unique health needs and concerns.
+                </p>
               <ul className="text-gray-700 text-sm space-y-1">
                 <li>• Hormonal imbalances</li>
                 <li>• Menstrual disorders</li>
